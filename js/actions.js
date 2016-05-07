@@ -2,7 +2,7 @@ var fn = {
 
 	deviceready: function(){
 		//Esto es necesario para PhoneGap para que pueda ejecutar la aplicación
-		document.addEventListener("deviceready", scarlett.onDeviceReady, false);
+		document.addEventListener("deviceready", fn.init, false);
 	},
 
 	init: function(){
