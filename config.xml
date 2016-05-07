@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+    <widget xmlns = "http://www.w3.org/ns/widgets"
+
+        xmlns:gap   = "http://phonegap.com/ns/1.0"
+        id          = "mx.cenet.tiendaVApp"
+        version     = "1.0.0"
+        versionCode = "1" >
+
+        <!-- versionCode is optional and Android only -->
+
+        <preference name="phonegap-version" value="3.7.0" />
+
+        <name>GameStore</name>
+
+        <description>
+            Aplicación de prueba para tienda de videojuegos.
+        </description>
+
+        <author href="#" email="dasc14@gmail.com">
+            Daniel Sosa
+        </author>
+
+        <icon src="img/icon.jpg" />
+        <splash src="img/splash.png" />
+
+        <gap:plugin name="org.apache.cordova.dialogs" />
+        <gap:plugin name="org.apache.cordova.vibration" />
+        <gap:plugin name="org.apache.cordova.geolocation"/>
+        
+        <allow-navigation href="http://carlos.igitsoft.com" />
+    </widget>
