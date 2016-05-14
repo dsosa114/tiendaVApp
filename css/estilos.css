@@ -1,0 +1,22 @@
+img{
+	width: 100%;
+}
+.ui-block-a,
+.ui-block-b {
+	position: relative;
+}
+
+#productos .precio{
+	position: absolute;
+	/*
+		Propiedades
+		top:
+		left: 
+		right: 
+		bottom: 
+		*/
+	right: 5px;
+	bottom: 10px;
+	font-weight: bold;
+	color: #0730B6;
+}

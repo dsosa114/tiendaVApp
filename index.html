@@ -28,39 +28,99 @@
                 </div>
         </div>
 	</div>
-	<div id="todos" data-role="page">
+	<div id="productos" data-role="page">
+		<div data-role="panel" id="menu" data-display="overlay">
+        		<ul data-role="listview">
+        			<li><a href="#" class="producto-link" categoria="todos">Todos</a></li>
+        			<li><a href="#" class="producto-link" categoria="consolas">Consolas</a></li>
+        			<li><a href="#" class="producto-link" categoria="videojuegos">Videojuegos</a></li>
+        			<li><a href="#" class="producto-link" categoria="accesorios">Accesorios</a></li>
+        			<li><a href="#ubicacion" id="boton-ubicacion">Ubicación</a></li>
+        		</ul>
+        	<div data-role="footer" data-position="fixed">
+        		<a href="#" data-rel="close">Cerrar</a>
+        	</div>
+        </div>
 		<div data-role="header">
-            <h1>Productos</h1>
+            <h1 id="titulo-productos">Productos</h1>
+            <a href="#menu" class"ui-btn" data-icon="bars">Menu</a>
         </div>
         <div class="ui-content">
-            <div class="ui-grid-a">
-            </div>
-        </div>
-        <div data-role="footer" class="ui-bar">
-            <div data-role="navbar">
-                <ul>
-                </ul>
-            </div>
-        </div>
-        <div data-role="panel" id="menu">
-        	<div class="ui-content">
-        		<ul data-role="listview">
-        			<li><a href="#">Todos</a></li>
-        			<li><a href="#">Consolas</a></li>
-        			<li><a href="#">Videojuegos</a></li>
-        			<li><a href="#">Accesorios</a></li>
-        			<li><a href="#">Ubicación</a></li>
-        		</ul>
+        	<div id="productos-contenido" class="ui-grid-a">
         	</div>
-        	<div data-role="footer" data-position="fixed">
-        		<a href="#" data-rel="close"></a>
-        	</div>
+        </div>
+        <div data-role="footer" data-position="fixed" class="ui-bar">
+			<div data-role="navbar">
+			</div>
         </div>
 	</div>
+    <div id="detalle" data-role="page">
+        <div data-role="header">
+            <h1>Producto</h1>
+            <a href="#" data-rel="back">Atrás</a>
+        </div>
+        <div class="ui-content">
+            <table id="tabla-detalle">
+                <tr>
+                    <td class="imagen" colspan="2">
+
+                    </td>
+                </tr>   
+                <tr>
+                    <td>Nombre</td>
+                    <td class="nombre">
+                        
+                    </td>
+                </tr>  
+                <tr>
+                    <td>Descripción</td>
+                    <td class="descripcion">
+                        
+                    </td>
+                </tr>  
+                <tr>
+                    <td>Categoría</td>
+                    <td class="categoria">
+                        
+                    </td>
+                </tr>  
+                <tr>
+                    <td>Cantidad Disponible</td>
+                    <td class="cantidad">
+                        
+                    </td>
+                </tr>  
+                <tr>
+                    <td>Precio</td>
+                    <td class="precio">
+                        
+                    </td>
+                </tr>     
+            </table>
+        </div>
+    </div>
+    <div data-role="page" id="ubicacion">
+        <div data-role="header">
+            <h1>Ubicación</h1>
+            <a href="#" data-rel="back">Atrás</a>
+        </div>
+        <div class="mapa">
+            <div id="canvas">
+            </div>
+        </div>
+
+    </div>
+    <script type="text/javascript">
+        function mapa(){
+            gl.ponerMapa();
+        }
+    </script>
     <script type="text/javascript" src="phonegap.js"></script>
     <script type="text/javascript" src="js/jquery-1.12.1.min.js"></script> <!-- script: siempre van al final-->
-    <script type="text/javascript" src="js/actions.js"></script>
     <script type="text/javascript" src="js/jquery.mobile-1.4.5.min.js"></script>
+    <script type="text/javascript" src="js/productos.json"></script>
+    <script type="text/javascript" src="js/actions.js"></script>
     <script type="text/javascript" src="js/almacen.js"></script>
+    <script type="text/javascript" src="js/API/geolocation.js"></script>
 </body>
 </html>

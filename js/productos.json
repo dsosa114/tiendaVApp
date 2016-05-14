@@ -1,0 +1,162 @@
+var productos = [
+	{
+		id: 1,
+		nombre: "Xbox 360",
+		categoria: "consolas",
+		precio: 5000,
+		cantidad: 3,
+		descripcion: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima atque fugiat odio earum laborum esse accusamus soluta odit nisi laudantium velit enim debitis omnis ea a fugit ipsum laboriosam, recusandae.",
+		imagen: "placeholder.png"
+	},
+
+	{
+		id: 2,
+		nombre: "Xbox One",
+		categoria: "consolas",
+		precio: 7000,
+		cantidad: 2,
+		descripcion: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima atque fugiat odio earum laborum esse accusamus soluta odit nisi laudantium velit enim debitis omnis ea a fugit ipsum laboriosam, recusandae.",
+		imagen: "placeholder.png"
+	},
+
+	{
+		id: 3,
+		nombre: "Play Station 3",
+		categoria: "consolas",
+		precio: 4000,
+		cantidad: 7,
+		descripcion: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima atque fugiat odio earum laborum esse accusamus soluta odit nisi laudantium velit enim debitis omnis ea a fugit ipsum laboriosam, recusandae.",
+		imagen: "placeholder.png"
+	},
+
+	{
+		id: 4,
+		nombre: "Play Station 4",
+		categoria: "consolas",
+		precio: 7000,
+		cantidad: 1,
+		descripcion: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima atque fugiat odio earum laborum esse accusamus soluta odit nisi laudantium velit enim debitis omnis ea a fugit ipsum laboriosam, recusandae.",
+		imagen: "placeholder.png"
+	},
+
+	{
+		id: 5,
+		nombre: "Wii",
+		categoria: "consolas",
+		precio: 3000,
+		cantidad: 1,
+		descripcion: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima atque fugiat odio earum laborum esse accusamus soluta odit nisi laudantium velit enim debitis omnis ea a fugit ipsum laboriosam, recusandae.",
+		imagen: "placeholder.png"
+	},
+
+
+	{
+		id: 6,
+		nombre: "Far Cry 2",
+		categoria: "videojuegos",
+		precio: 300,
+		cantidad: 10,
+		descripcion: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima atque fugiat odio earum laborum esse accusamus soluta odit nisi laudantium velit enim debitis omnis ea a fugit ipsum laboriosam, recusandae.",
+		imagen: "placeholder.png"
+	},
+
+	{
+		id:7,
+		nombre: "Halo 5",
+		categoria: "videojuegos",
+		precio: 800,
+		cantidad: 10,
+		descripcion: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima atque fugiat odio earum laborum esse accusamus soluta odit nisi laudantium velit enim debitis omnis ea a fugit ipsum laboriosam, recusandae.",
+		imagen: "placeholder.png"
+	},
+
+	{
+		id: 8,
+		nombre: "Fifa 15",
+		categoria: "videojuegos",
+		precio: 900,
+		cantidad: 11,
+		descripcion: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima atque fugiat odio earum laborum esse accusamus soluta odit nisi laudantium velit enim debitis omnis ea a fugit ipsum laboriosam, recusandae.",
+		imagen: "placeholder.png"
+	},
+
+	{
+		id: 9,
+		nombre: "Call of Duty Black Ops 2",
+		categoria: "videojuegos",
+		precio: 700,
+		cantidad: 3,
+		descripcion: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima atque fugiat odio earum laborum esse accusamus soluta odit nisi laudantium velit enim debitis omnis ea a fugit ipsum laboriosam, recusandae.",
+		imagen: "placeholder.png"
+	},
+
+	{
+		id: 10,
+		nombre: "Battlefield 3",
+		categoria: "videojuegos",
+		precio: 400,
+		cantidad: 1,
+		descripcion: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima atque fugiat odio earum laborum esse accusamus soluta odit nisi laudantium velit enim debitis omnis ea a fugit ipsum laboriosam, recusandae.",
+		imagen: "placeholder.png"
+	},
+
+	{
+		id: 11,
+		nombre: "Sims 3",
+		categoria: "videojuegos",
+		precio: 300,
+		cantidad: 10,
+		descripcion: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima atque fugiat odio earum laborum esse accusamus soluta odit nisi laudantium velit enim debitis omnis ea a fugit ipsum laboriosam, recusandae.",
+		imagen: "placeholder.png"
+	},
+
+	{
+		id: 12,
+		nombre: "Destiny",
+		categoria: "videojuegos",
+		precio: 700,
+		cantidad: 7,
+		descripcion: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima atque fugiat odio earum laborum esse accusamus soluta odit nisi laudantium velit enim debitis omnis ea a fugit ipsum laboriosam, recusandae.",
+		imagen: "placeholder.png"
+	},
+
+	{
+		id:13,
+		nombre: "Gears of War 3",
+		categoria: "videojuegos",
+		precio: 300,
+		cantidad: 5,
+		descripcion: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima atque fugiat odio earum laborum esse accusamus soluta odit nisi laudantium velit enim debitis omnis ea a fugit ipsum laboriosam, recusandae.",
+		imagen: "placeholder.png"
+	},
+
+	{
+		id:14,
+		nombre: "Diadema xbox 360",
+		categoria: "accesorios",
+		precio: 300,
+		cantidad: 10,
+		descripcion: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima atque fugiat odio earum laborum esse accusamus soluta odit nisi laudantium velit enim debitis omnis ea a fugit ipsum laboriosam, recusandae.",
+		imagen: "placeholder.png"
+	},
+
+	{
+		id: 15,
+		nombre: "Diadema xbox one",
+		categoria: "accesorios",
+		precio: 500,
+		cantidad: 3,
+		descripcion: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima atque fugiat odio earum laborum esse accusamus soluta odit nisi laudantium velit enim debitis omnis ea a fugit ipsum laboriosam, recusandae.",
+		imagen: "placeholder.png"
+	},
+
+	{
+		id: 16,
+		nombre: "Pilas recargables",
+		categoria: "accesorios",
+		precio: 300,
+		cantidad: 3,
+		descripcion: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima atque fugiat odio earum laborum esse accusamus soluta odit nisi laudantium velit enim debitis omnis ea a fugit ipsum laboriosam, recusandae.",
+		imagen: "placeholder.png"
+	},
+];
